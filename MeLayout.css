@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background: url("images/com.jpg");
+	height: 150vh;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.welcome-text{
+	position: absolute;
+	width: 600px;
+	height: 100px;
+	margin: 15% 27%;
+	text-align: center;
+}
+
+.welcome-text h1{
+	text-align: center;
+	color: #01010;
+	text-shadow: 2px 2px #A9A9A9;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.nav{
+	float left;
+	margin-left: 1200px;
+	list-style-type: none;
+}
+
+.nav li{
+	display: inline-block;
+	margin: 5% 0%;
+	border: 1px solid black;
+}
+.nav li a{
+	color: black;
+	text-shadow: 1px 1px #A9A9A9;
+	text-decoration: none;
+	padding: 10px 15px; 
+	font-size: 20px;
+	transition: 0.6s ease;
+	margin-right: 10px;
+}
+
+.nav li a:hover{
+	background: #fff;
+	color: #333;
+}
+
+.me{
+	width: 15%;
+	margin: 225px auto 100px;
+}
+
+.me img{
+	width: 100%;
+	cursor: pointer;
+}
+
+.about{
+	position: absolute;
+	width: 600px;
+	height: 100px;
+	margin: 0% 28%;
+	text-align: center;
+}
+
+.about h1{
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 15px;
+}
